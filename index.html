@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor education</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="table">
+        <table border = "4" cellspacing="4" bordercolor ="black" width = "40%" cellpadding = "10">
+            <tr>
+              <th>Ім'я</th>
+              <th>Прізвище</th>
+              <th>Телефон</th>
+              <th>Email</th>
+            </tr> 
+            <tr>
+              <td>Віктор</td>
+              <td>Гуменюк</td>
+              <td>0661283513</td>
+              <td>viktor.humenyuk@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Тарас</td>
+                <td>Дмитришин</td>
+                <td>0950055245</td>
+                <td>tarasdmutrushun@icloud.com</td>
+              </tr>
+              <tr>
+                <td>Володимир</td>
+                <td>Олійник</td>
+                <td>0938283835</td>
+                <td>vOliynuk@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Олег</td>
+                <td>Романів</td>
+                <td>0501055020</td>
+                <td>romanivoleg@gmail.com</td>
+              </tr>
+          </table>
+    </div>
+
+
+    <div class="div-top">
+        <form>
+            <label>
+                <input type="text" required placeholder="Введіть Ваше ім'я"> 
+            </label>
+        </form>
+    </div>
+    
+    <div class="div-top">
+        <form>
+            <label>
+                <input type="text" required placeholder="Введіть Ваше прізвище"> 
+            </label>
+        </form>
+    </div>
+
+    <div class="male">
+        <span>Виберіть Вашу стать</span>
+        <br>
+        <label>
+            <input class="male-man" type="radio" name="sex" value="Чоловіча" checked>Чоловіча
+        </label>
+    </div>
+
+    <div class="male">
+        <label>
+            <input type="radio" name="sex" value="Жіноча">Жіноча
+         </label>
+    </div>
+
+    <div class="text-area">
+        <span>Ваше питання</span>
+        <br>
+        <textarea placeholder="Напишіть ваше питання" rows="5" cols="20" name="text"></textarea>
+    </div>
+
+    <div class="city">
+        <span>Ваше місто</span>
+        <br>
+        <select>
+            <option name="city" value="select" selected disabled>Вибрати місто</option>
+            <option name="city" value="Ivano-Frankivsk">Івано-Франківськ</option>
+            <option name="city" value="Lviv">Львів</option>
+            <option name="city" value="Ternopil">Тернопіль</option>
+            <option name="city" value="Chernivtsi">Чернівці</option>
+            <option name="city" value="Kalush">Калуш</option>
+        </select>
+    </div>
+
+    <div class="language">
+        <span>Виберіть мову</span>
+        <br>
+        <input type="checkbox">Українська
+        <br>
+        <input type="checkbox">Русский
+        <br>
+        <input type="checkbox">English
+    </div>
+
+    <div class="button">
+        <button type="submit">Відправити</button>
+    </div>
+</body>
+</html>
